@@ -13,3 +13,7 @@ object Main extends App {
   val system: ActorSystem[String] = ActorSystem(HelloAkka(), "helloAkka")
   system ! "Hello, Akka!"
 }
+
+object Main:
+  def main(args: Array[String]): Unit =
+    println("Hello, Scala!")
